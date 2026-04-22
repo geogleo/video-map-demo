@@ -1,0 +1,50 @@
+name: video_map_demo
+description: A video player synced with GPS map trajectory
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 状态管理
+  flutter_riverpod: ^2.4.9
+
+  # 地图
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+  # 视频
+  video_player: ^2.8.2
+
+  # 录制
+  camera: ^0.11.0
+  path_provider: ^2.1.2
+
+  # GPS定位
+  geolocator: ^11.0.0
+  background_locator_2: ^2.0.7
+
+  # 后台服务
+  flutter_background_service: ^5.0.10
+
+  # 云端同步
+  dio: ^5.4.0
+
+  # UI
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 如果要打包测试视频，放在 assets 目录
+  # assets:
+  #   - assets/videos/sample.mp4
