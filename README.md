@@ -237,6 +237,6 @@ final segment = RouteSegment(
 
 **⭐ 如果这个项目对你有帮助，请给一个 Star！**
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [David Liao]
 
 </div>
