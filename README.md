@@ -69,7 +69,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/YOUR_USERNAME/video-map-demo.git
+git clone https://github.com/geogleo/video-map-demo.git
 cd video-map-demo
 
 # 2. 安装依赖
@@ -237,6 +237,6 @@ final segment = RouteSegment(
 
 **⭐ 如果这个项目对你有帮助，请给一个 Star！**
 
-Made with ❤️ by [David Liao]
+Made with ❤️ by Geogleo[David Liao]
 
 </div>
